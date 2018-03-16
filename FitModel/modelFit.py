@@ -67,7 +67,7 @@ df_test.columns.values[0] = 'i'
 
 #df2.rename(columns={'Unnamed: 0': 'i'}, inplace=True)
 # take the index column and the prediction column and write it to csv file
-df_test[['i','y']].to_csv('intern_predicted.csv', encoding='utf-8', index=False)
+df_test[['i','y']].to_csv('predicted.csv', encoding='utf-8', index=False)
 
 
 
